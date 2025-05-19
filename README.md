@@ -1,6 +1,6 @@
 # Romi32u4_Robot
 ## About
-This was a term long project that I worked on with my partner Saeed Hage. Attached are some of the files necessary to the robot. We were Given a framework to build from that included a general template for event driven programming. 
+This was a term long project that I worked on with my partner Saeed Hage. Attached are some of the files necessary to the robot. We were Given a framework to build from that included a general template for event driven programming. This project taught me alot about version control using git and collaborative programming.
 
 ## Robot Alignment Using Camera
 ![giphy (2)](https://github.com/user-attachments/assets/0e416bc5-1e19-4ad1-bb14-6e7857c9ddda)
