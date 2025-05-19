@@ -18,6 +18,7 @@ This sensor presented a unique challenge due to its high nonlinearity. However b
 This sensor was made up of multiple lightness sensors. We used an array in C++ to store the response from each individual sensor. This allowed us to precisely determine position on a line and adjust robot motion accordingly. We implemented a PID control system to follow a line using a weighted of the sensor data. 
 ### Load cell
 We compared two processors for the load cell sensor. We first used an HX711 chip which is configured to produce an adc reading for the sensor. We then built our own circuit using an AD620 chip. By using different resistors we explored the nonlinearity of the sensor output. We found that a cubic fit most effectively modeled the sensor output. By programming this conversion ourselves allowed us to outperform the HX711 chip. 
+
 ![image](https://github.com/user-attachments/assets/e771f976-4426-4d62-b101-f4c1508bc445)
 ### IMU
 To get the most accurate reading from the IMU we implemented a complementary filter that takes the stable but drifting gyroscope readings and adjusts them based on the noisy accelerometer readings to remove drift. This gave us precise readings for the incline of the robot. We were also able to use the gravitational acceleration reading of the three axes to determine the angle of the robot relative to the incline it is on. 
