@@ -25,6 +25,7 @@ To get the most accurate reading from the IMU we implemented a complementary fil
 This camera is equipped with its own processing chip. This meant we could program the camera specifically using python to get relevant data. This data is then read by the main control board via UART protocol. In our case we tracked the corners of visible april tags. This information would be converted to a position and a rotation relative to the robot and sent via UART signal to the main board. The main board would then use the relative position of the tag to calculate a point and orientation to navigate in the environment.
 
 Math on the camera side.
+
 ![image](https://github.com/user-attachments/assets/e3774bbd-19de-4ae9-8a40-eaa0d5796b9f)
 ![image](https://github.com/user-attachments/assets/ef0bf3a6-9f4c-4ac2-9ebd-c9d8dd9231db)
 
