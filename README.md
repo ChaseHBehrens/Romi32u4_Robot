@@ -34,4 +34,5 @@ Math on the robot side.
 
 ![image](https://github.com/user-attachments/assets/31f9a8d2-5879-4103-9016-3cd2993424e0)
 
- 
+## Improvements 
+I would definitely improve on the underlying state machine of this project. This project had some large files and spread out functionality which was not ideal. In future projects I think grouping functionality of states to a single file would vastly improve the maintainability of the code. I have been experimenting with the type state pattern in rust to solve this issue for future projects.
